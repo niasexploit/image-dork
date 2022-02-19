@@ -1,6 +1,6 @@
 ## You must used a python3.*
 ## Usage : python namefile.py or python3 namefile.py
-## Con7ext
+## 4NDR0 R4T
 import urllib.request
 import re
 
