@@ -2,3 +2,9 @@
 
 # imagedork.py
 input dork freely to get pictures of every website
+
+# Installation
+1. https://github.com/hidayat-code/image-dork
+2. cd image-dork
+3. python dork.py
+
