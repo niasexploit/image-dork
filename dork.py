@@ -4,6 +4,27 @@
 import urllib.request
 import re
 
+banner = """
+                                                                                    .-'''-.                            
+                                                                   _______         '   _    \                          
+.--. __  __   ___                          __.....__               \  ___ `'.    /   /` '.   \              .          
+|__||  |/  `.'   `.            .--./)  .-''         '.              ' |--.\  \  .   |     \  '            .'|          
+.--.|   .-.  .-.   '          /.''\\  /     .-''"'-.  `.            | |    \  ' |   '      |  '.-,.--.  .'  |          
+|  ||  |  |  |  |  |    __   | |  | |/     /________\   \           | |     |  '\    \     / / |  .-. |<    |          
+|  ||  |  |  |  |  | .:--.'.  \`-' / |                  |           | |     |  | `.   ` ..' /  | |  | | |   | ____     
+|  ||  |  |  |  |  |/ |   \ | /("'`  \    .-------------'           | |     ' .'    '-...-'`   | |  | | |   | \ .'     
+|  ||  |  |  |  |  |`" __ | | \ '---. \    '-.____...---.           | |___.' /'                | |  '-  |   |/  .      
+|__||__|  |__|  |__| .'.''| |  /'""'.\ `.             .'           /_______.'/                 | |      |    /\  \     
+                    / /   | |_||     ||  `''-...... -'             \_______|/                  | |      |   |  \  \    
+                    \ \._,\ '/\'. __//                                                         |_|      '    \  \  \   
+                     `--'  `"  `'---'                                                                  '------'  '---'                                                                        
+     
+     Github : github.com/hidayat-code
+     Blog : www.hidayatcode.com
+"""
+print(banner)
+
+
 def scrap(args):
   args = args.split()
   url = 'https://www.google.co.id/search?ei=c_uHW87hBc_p9QO-6I7wBg&safe=strict&yv=3&tbm=isch&q=' + "+" .join(args)  +'&vet=10ahUKEwiO58Pk-pTdAhXPdH0KHT60A24QuT0IMSgB.c_uHW87hBc_p9QO-6I7wBg.i&ved=0ahUKEwiO58Pk-pTdAhXPdH0KHT60A24QuT0IMSgB&ijn=1&start=100&asearch=ichunk&async=_id:rg_s,_pms:s,_fmt:pc'
